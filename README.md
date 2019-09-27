@@ -1,2 +1,2 @@
 # wp-plugin-myhost-force-https
- PROISP - Force all traffic to the webpage to use https
+ HTTPS guide link for WordPress Health Check - for PRO ISP
