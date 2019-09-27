@@ -2,7 +2,7 @@
 /*
  * Plugin Name: HTTPS guide link for WordPress Health Check
  * Plugin URI: https://www.proisp.no/
- * Description: Provide a link to our guide on how to force all traffic to the webpage to use https. Displayed if https test fails. Inspired by and template by Marius L. J. (@Clorith) at WordPress.org. Original can be found here:  https://make.wordpress.org/core/2019/09/25/whats-new-in-site-health-for-wordpress-5-3/#highlighter_144139
+ * Description: Provide a link to our guide on how to force all traffic to the webpage to use https. Displayed if https test fails. Inspired by and template by Marius L. J. (@Clorith) at WordPress.org. The original can be <a href="https://make.wordpress.org/core/2019/09/25/whats-new-in-site-health-for-wordpress-5-3/#highlighter_144139" target="_blank">found here</a>.
  * Version: 1.0
  * Requires at least: 5.3
  * Requires PHP: 5.6
