@@ -71,8 +71,10 @@ function proisp_site_health_https_link( $site_health_check ) {					// The filter
 			$title :
 			__( 'Force all traffic to the webpage to use https - PRO ISP', 'proisp' );		// Default title in case a retrieve error, not found or empty
 		$tip = defined( 'WP_DEBUG' ) && WP_DEBUG ?											// Add some debug data, like is_trans? ( to be show as title tooltip)
-			' title="Title is' . ( $is_trans ? '' :
-			' not' ) . ' cached."' : '';
+			' title="Title is' . ( $is_trans ?
+				'' :
+				' not' ) . ' cached."' :
+			'';
 		$site_health_check['actions'] .= sprintf(
 			'<a href="%s" target="_blank"' . $tip .'>%s</a>',
 			esc_url( $url ),
