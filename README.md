@@ -4,7 +4,7 @@ WordPress 5.3 comes with a new <code>site_status_test_result</code> filter. This
 
 It's language aware, and support any language version of the guide page.
 
-The anchor of the added link is extracted from the guide document itself, no need to translate. The document title is retrieved directly from the document, using a configurable timout. The title is then cached for a configurable time. An English fallback title is provided in case of any failure to get an external resource. Alle configurations in a special section at he top of the file. Documented in source.
+The anchor of the added link is extracted from the guide document itself, no need to translate. The document title is retrieved directly from the document, using a configurable timout. The title is then cached for a configurable time. An English fallback title is provided in case of any failure to get an external resource. Alle configurations in a special section at the top of the file. Documented in source.
 
 This plugin is made for PRO ISP, at own initiative. It's main php file is intended to be placed in <code>wp-content/mu-plugins</code> folder. End user may delete it whout any consequence except not seeing this link any more.
 
