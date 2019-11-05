@@ -1,6 +1,6 @@
 # HTTPS guide link for WordPress Health Check - for PRO ISP and other interested WordPress web hosts
 
-WordPress 5.3 comes with a new <code>site_status_test_result</code> filter. his allows weh hosts to add a link to the Site Heath test results. This plugin utlizes this new filter to add a link to their guide page in case the test fails (https is not used or not configured). The filter was introduced in this Make WordPress Core Dev Note article: https://make.wordpress.org/core/2019/09/25/whats-new-in-site-health-for-wordpress-5-3/#highlighter_144139
+WordPress 5.3 comes with a new <code>site_status_test_result</code> filter. This allows weh hosts to add a link to the Site Heath test results. This plugin utlizes this new filter to add a link to their guide page in case the test fails (https is not used or not configured). The filter was introduced in this Make WordPress Core Dev Note article: https://make.wordpress.org/core/2019/09/25/whats-new-in-site-health-for-wordpress-5-3/#highlighter_144139
 
 It's language aware, and support any language version of the guide page.
 
