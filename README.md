@@ -6,7 +6,7 @@ It's language aware, and support any language version of the guide page.
 
 The anchor of the added link is extracted from the guide document itself, no need to translate. The document title is retrieved directly from the document, using a configurable timout. The title is then cached for a configurable time. An English fallback title is provided in case of any failure to get an external resource. Alle configurations in a special section at the top of the file. Documented in source.
 
-This plugin is made for PRO ISP, at own initiative. It's main php file is intended to be placed in <code>wp-content/mu-plugins</code> folder. End user may delete it whout any consequence except not seeing this link any more.
+This plugin is made for PRO ISP, at own initiative. It's main php file is intended to be placed in <code>wp-content/mu-plugins</code> folder, but also be placed in <code>wp-content/plugins</code> as an ordinary plugin. End user may delete it, or deactivate it, whout any consequence except not seeing the document link any more.
 
 Suggested roll-out: To all sites with WordPress, PHP >= 5.6 and "Force HTTPS Redirect" not enabled in cPanel.
 
